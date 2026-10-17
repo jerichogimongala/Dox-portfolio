@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f1eb">
+  <meta name="description" content="DOX — premium original clothing designs, made to be worn.">
+  <title>DOX — Clothing & Objects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="DOX home">
+      <img src="assets/dox-logo.png" alt="DOX">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#designs">Designs</a>
+      <a href="#about">About</a>
+      <a href="https://desoma.com/" target="_blank" rel="noopener noreferrer">Desoma marketplace <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Independent clothing design</p>
+        <h1 id="hero-title">Made to be<br><span>noticed.</span></h1>
+        <p class="hero-description">A study in self-expression, considered details, and the pieces that make a look your own.</p>
+        <a class="text-link" href="#designs">Explore the collection <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-image-wrap">
+        <img
+          class="hero-image"
+          src="assets/design-01-better-days-ahead.png"
+          alt="Better Days Ahead black T-shirt lookbook showing front, back, and design details"
+        >
+        <span class="hero-image-note">DOX / BETTER DAYS AHEAD</span>
+        <span class="hero-image-index">01 — 08</span>
+      </div>
+      <span class="hero-side-note" aria-hidden="true">DESIGNED WITH INTENTION · WORN YOUR WAY</span>
+    </section>
+
+    <section class="collection section-wrap" id="designs" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The visual archive</p>
+          <h2 id="collection-title">Selected designs<span class="heading-period">.</span></h2>
+        </div>
+        <p class="section-note">A growing collection of ideas<br>for everyday expression.</p>
+      </div>
+
+      <div class="design-grid">
+        <!-- Add each new design as the next numbered card. Update its image, title, description, and store URL. -->
+        <article class="design-card" data-design-title="Better Days Ahead" data-design-description="A reminder that every chapter—even the hard, uncertain ones—builds toward a brighter tomorrow. This original black tee pairs a clean front emblem with a cinematic mountain-and-moon graphic on the back." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 01: Better Days Ahead">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-01-better-days-ahead.png" alt="Better Days Ahead T-shirt lookbook with front and back views, mountain artwork, and detail panels" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>01 / BETTER DAYS AHEAD</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="The Quiet Mind" data-design-description="Less noise, more clarity. A minimalist black tee with a restrained front emblem and a serene moonlit mountain scene across the back." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 02: The Quiet Mind">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-02-quiet-mind.png" alt="The Quiet Mind black T-shirt lookbook with moonlit mountain artwork" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>02 / THE QUIET MIND</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Built Different" data-design-description="Same world, different mindset. An original light-toned tee featuring a striking bird illustration and a message about growth, perspective, and choosing your own path." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 03: Built Different">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-03-built-different.png" alt="Built Different light T-shirt lookbook with bird artwork and graphic details" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>03 / BUILT DIFFERENT</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Lost Signal" data-design-description="Sometimes, disconnecting is the best connection. A dark, atmospheric design inspired by space, exploration, and finding freedom beyond the noise." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 04: Lost Signal">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-04-lost-signal.png" alt="Lost Signal black T-shirt lookbook with astronaut and moon artwork" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>04 / LOST SIGNAL</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Still Here" data-design-description="Some dreams. New chapters. Inspired by Japanese scenery and quiet resilience, this original graphic tee pairs a minimalist front with a reflective back illustration." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 05: Still Here">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-05-still-here.png" alt="Still Here black T-shirt lookbook with Japanese torii gate and landscape illustration" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>05 / STILL HERE</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Higher Ground" data-design-description="Higher goals. Same you. A mountain-inspired design about adventure, steady progress, and reaching for new heights without losing yourself along the way." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 06: Higher Ground">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-06-higher-ground.png" alt="Higher Ground light T-shirt lookbook with mountain graphic" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>06 / HIGHER GROUND</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Transformation" data-design-description="Not a new you—a better version. A bold butterfly graphic represents change, growth, and the beauty of becoming." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 07: Transformation">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-07-transformation.png" alt="Transformation black T-shirt lookbook with butterfly illustration" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>07 / TRANSFORMATION</span><span>2025</span></div>
+        </article>
+
+        <article class="design-card" data-design-title="Flow State" data-design-description="Good things happen when you just flow. A calm, minimal design inspired by balance, positivity, and finding your own rhythm." data-marketplace-url="https://desoma.com/">
+          <button class="design-link" type="button" aria-label="View details for design 08: Flow State">
+            <div class="design-image-wrap">
+              <img class="design-image" src="assets/design-08-flow-state.png" alt="Flow State light T-shirt lookbook with flowing line artwork" loading="lazy">
+              <span class="image-arrow" aria-hidden="true">+</span>
+            </div>
+          </button>
+          <div class="design-caption"><span>08 / FLOW STATE</span><span>2025</span></div>
+        </article>
+      </div>
+      <p class="collection-end">More on the way <span aria-hidden="true">✳</span></p>
+    </section>
+
+    <dialog class="design-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close design details">×</button>
+      <div class="dialog-image-wrap">
+        <img class="dialog-image" src="" alt="">
+      </div>
+      <div class="dialog-content">
+        <p class="eyebrow dialog-eyebrow">DOX / DESIGN DETAILS</p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-description"></p>
+        <a class="marketplace-button" href="https://desoma.com/" target="_blank" rel="noopener noreferrer">
+          Go to Desoma to shop <span aria-hidden="true">↗</span>
+        </a>
+        <p class="marketplace-note">You’ll be redirected to desoma.com to view this design in my store.</p>
+      </div>
+    </dialog>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-index">DOX® &nbsp; / &nbsp; ABOUT</div>
+      <div class="about-content">
+        <p class="eyebrow">A point of view, in progress</p>
+        <h2 id="about-title">Clothing is how<br>you <em>enter the room.</em></h2>
+        <p>Premium, original designs made to be worn—thoughtfully created with distinctive style, considered details, and lasting appeal.</p>
+        <a class="text-link text-link-light" href="https://desoma.com/" target="_blank" rel="noopener noreferrer">Visit my store <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="about-mark" aria-hidden="true">D.</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#home" aria-label="DOX home">
+      <img src="assets/dox-logo.png" alt="DOX">
+    </a>
+    <p>Premium, original designs—made to be worn. © <span id="current-year"></span> DOX.</p>
+    <a class="back-to-top" href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
